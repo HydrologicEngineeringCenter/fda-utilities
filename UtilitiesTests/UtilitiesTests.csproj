@@ -2,13 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-
     <IsPackable>false</IsPackable>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\UtilitiesTests.xml</DocumentationFile>
-    <OutputPath>bin\Debug</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

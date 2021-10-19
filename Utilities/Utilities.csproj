@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-	<OutputPath>C:\Temp\FDA2.0</OutputPath>
+	<OutputPath>..\Build\FDA2.0</OutputPath>
   </PropertyGroup>
 
 	<PropertyGroup>
@@ -11,6 +11,7 @@
 		<Version>1.0.0-Alpha</Version>
 		<Description>A library for handling messaging, validation, and serialization in HEC-FDA</Description>
 		<Authors>Hydrologic Engineering Center</Authors>
+		<RepositoryUrl>https://github.com/HydrologicEngineeringCenter/fda-utilities</RepositoryUrl>
 	</PropertyGroup>
 	
   <ItemGroup>
