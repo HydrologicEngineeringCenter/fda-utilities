@@ -8,6 +8,6 @@ namespace Utilities
     public interface ISerializeToXML<T>
     {
         XElement WriteToXML();
-
+        T ReadFromXML(XElement ele);
     }
 }
